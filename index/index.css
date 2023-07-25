@@ -1,0 +1,182 @@
+* {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-attachment: fixed;
+    background-color: none;
+}
+
+section {
+   background-color: darkolivegreen;
+    border-radius: 46px;
+    text-align: center;
+    color:  #0F0700;
+    
+}
+section li {
+    display: inline-block;
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 12px;
+    line-height: 30px;
+    
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color: ghostwhite;
+    border-radius: 15px 0;
+    background-color: goldenrod;
+    text-align: center;
+    display: inline-block;
+    transition: 0.7s ease-in-out;
+    font-size: xx-large;
+    width: 4em;
+    
+}
+
+h1 {
+    font-weight: 200px;
+    color: rosybrown;
+    font-weight: bold
+}
+
+.logo {
+    background-color: beige;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+h3{
+    background-color: darkgreen;
+    text-align: center;
+    width: fit-content;
+    border-radius: 67px;
+    height: 34px;
+    color: white;
+}
+
+/*------------MAIN---------*/
+.main {
+    display: flex;
+    background-color: none;
+    height: 13px;
+    height: 20em;
+    left: 0;
+    width: 1300px;
+    padding: 0.5px 0 4px 0.5px;
+}
+/*-------POULETRY-------*/
+.pouletry {
+    background-color: lightsteelblue;
+    height: fit-content;
+    border-radius: 5px;/*
+    background: url(/image/reared\ cock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    height: 18.5em;
+    width: 18.5em;
+    margin-top: 23px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+    
+
+}
+.pouletry:hover{
+    transition: 0.5s ease;
+    color: white;
+    font-size: x-large;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+}
+.housing_pouletry {
+    background-color: lightsteelblue;
+    height: fit-content;/*
+    background: url(/image/cock\ housing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    border-radius: 5px;
+    width: 20em;
+    height: 20em;
+    margin-top: 23px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+}
+.housing_pouletry:hover{
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+.medical_pouletry {
+    background-color: lightsteelblue;
+    height: fit-content;
+    /*
+    background: url(/image/person\ to\ care\ cock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    border-radius: 5px;
+    height: 18.5em;
+    width: 18em;
+    margin-top: 23px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+}
+.medical_pouletry:hover{
+    transition: 0.5s ease;
+    background-color: maroon;
+    color: white;
+    font-size: x-large;
+}
+
+.meat_pouletry {
+    background-color: lightsteelblue;
+    height: fit-content;
+    border-radius: 5px;
+    height: 18.5em;
+    width: 18.5em;
+    margin-top: 23px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+    
+}
+.meat_pouletry:hover{
+    transition: 0.5s ease;
+    background-color: blue;
+    color: white;
+    font-size: x-large;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+}
+img{
+    border-radius: 50%;
+    height: 99px;
+    width: 99px;
+}
+
+/*----------FOOTER----------*/
+footer {
+    height: auto;
+    background-color: lightblue;
+    font-weight: bold;
+    width: 100%;
+}
+
+.main_footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+/*-----------copy_right-------*/
+.copy_right {
+    background-color: maroon;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 45px;
+    width: fit-content;
+}
+@media screen and {(max-width: 1600px;
+    
+}
