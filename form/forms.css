@@ -1,0 +1,45 @@
+*{
+    font-weight: 500px;
+    align-items: center;
+}
+body{
+    height: 200px;
+    background-color: darkslategray;
+    }
+table{
+    background-color: rgb(9, 165, 165);
+    height: 200%;
+    width: 20%;
+    align-items: center;
+    margin-left: 550px;
+    content: icon;
+}
+table{
+    border-radius: 49px;
+}
+div{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+h1{
+    margin-left: 17.5em;
+    background: black;
+    color: white;
+    border-radius: 45px;
+}
+span{
+    width: 20px;
+    
+}
+td :hover{
+    -o-animation-duration: 4px;
+}
+.placeholder{
+    border-radius: 40px;
+    box-sizing: border-box;
+    background-color: grey;
+    color: white;
+    
+}
+

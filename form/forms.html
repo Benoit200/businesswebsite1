@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORM</title>
+    <title>SIGN UP FORM</title>
+    <link rel="stylesheet" href="/index.css/form/form.css">
+    <script type="module" src="js.form"></script>
 </head>
+
 <body>
-  <h4>Sign up here</h4>
-  <a href="/form/sign up.html">User</a> 
-  <a href="/form/sign up.html">Customer</a> 
+    <table class="content">
+
+        <tr>
+            <div>
+                <h1><span>SIGN UP HERE</span></h1>
+            </div>
+
+            <th>First name</th>
+            <td>
+                <input type="text" class="placeholder" name="text-only">
+            </td>
+        </tr>
+        <tr>
+            <th>last name</th>
+            <td>
+                <input type="text" class="placeholder" name="text-only">
+            </td>
+        </tr>
+        <tr>
+            <th>date of birth:</th>
+            <td>
+                <input type="date" class="date_of_birth" name="bday">
+            </td>
+        </tr>
+        <tr>
+            <th>Tel:</th>
+            <td>
+                <input type="text" class="placeholder" name="text-only">
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <input type="text" class="placeholder">
+            </td>
+        </tr>
+        <tr>
+            <th>Apload your documents</th>
+            <td>
+                <input type="file" class="docpicker"accept=".doc,.PDF,GOOGLE.DOCS,.docx,.xml,application/msword,application/vnd.openxml
+                formats-officedocument.wordprocessingml.document" />
+            </td>
+        </tr>
+            <th>password</th>
+            <td>
+                <input type="password" class="placeholder" exportparts="see">
+            </td>
+        </tr>
+        <tr>
+            <th>Confirm your Password</th>
+            <td>
+                <input type="password" class="placeholder">
+            </td>
+        </tr>
+
+        <th>Gender:</th>
+        <td>
+            <input type="radio" name="text">male</input>
+            <input type="radio" name="text">female</input>
+            <input type="radio" name="text">other</input>
+            <input type="radio" name="text">not prefered</input>
+        </td>
+        </tr>
+        <tr>
+            <th>Sign up</th>
+            <td>
+                <a href="signin.html"><input type="button" class="button" value="sign up here"></a>
+            </td>
+        </tr>
+
+    </table>
 </body>
+
 </html>
