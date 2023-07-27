@@ -35,6 +35,12 @@ section {
     padding-top: 4%;
 
 }
+.sign_up_btn{
+    background: transparent;
+    border: 1px solid lightcoral;
+    color: blueviolet;
+    font-size: 18px;
+}
 
 section li {
     display: inline-block;
