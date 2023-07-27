@@ -1,0 +1,7 @@
+.home{
+    background-image: url(../image/home\ background\ image.jpg);
+    height: 450px;
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

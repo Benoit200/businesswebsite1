@@ -1,0 +1,238 @@
+* {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-attachment: fixed;
+    background-color: none;
+}
+body{
+    background-color: rgb(196, 198, 198);
+}
+
+section {
+    background: radial-gradient(circle, rgba(193,100,141,1) 9%, rgba(148,157,233,0.8155637254901961) 29%);
+    border-radius: 46px;
+    text-align: center;
+    color: #171514;
+    height: 10em;
+
+}
+.btn{
+    border-radius: 6px;
+}
+
+.search {
+    background-color: none;
+    height: 2.5em;
+    width: 38em;
+    position: inherit;
+    justify-content: center;
+    right: 0px;
+    display: flexbox;
+    border-radius: 60px;
+    float: right;
+    padding-top: 0;
+    padding-top: 4%;
+
+}
+
+section li {
+    display: inline-block;
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 12px;
+    line-height: 30px;
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: ghostwhite;
+    border-radius: 15px 0;
+    background-color: goldenrod;
+    text-align: center;
+    display: inline-block;
+    
+    font-size: xx-large;
+    width: 4em;
+
+}
+
+h1 {
+    font-weight: 200px;
+    color: rosybrown;
+    font-weight: bold
+}
+
+.logo {
+    background-color: beige;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+h3 {
+    background-color: rgb(120, 130, 120);
+    text-align: center;
+    width: fit-content;
+    border-radius: 67px;
+    height: 34px;
+    color: rgb(30, 21, 21);
+}
+
+/*------------MAIN---------*/
+.main {
+    margin: 12px;
+    display: flex;
+    background-color: none;
+    height: 13px;
+    height: 20em;
+    left: 0;
+    width: 1300px;
+    padding: 0.5px 0 4px 0.5px;
+
+}
+.style1{background-color: aliceblue;
+width:fit-content;
+height:fit-content;
+}
+.style2{background-color: aliceblue;
+    width:fit-content
+;
+height:fit-content;
+
+}
+.style3{background-color: azure;
+width:fit-content;
+height:fit-content;
+}
+
+/*----house pouletry---*/
+
+.housing_pouletry {
+    background-color: lightsteelblue;
+    height: fit-content;
+    border-radius: 5px;
+   
+    margin: 8px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+    padding: 13px;
+}
+
+.housing_pouletry:hover {
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;
+
+}
+
+/*----meedical cost--*/
+
+.medical_pouletry {
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    height: fit-content;
+
+    margin: 8px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+    padding: 13px;
+
+}
+
+.medical_pouletry:hover {
+    transition: 0.5s ease;
+    background-color: maroon;
+    color: white;
+
+}
+
+/*----meat pouletry*/
+
+.meat_pouletry {
+    background-color: lightsteelblue;
+    height: fit-content;
+    border-radius: 5px;
+
+
+    margin: 8px;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+    padding: 13px;
+
+}
+
+.meat_pouletry:hover {
+    transition: 0.5s ease;
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 5px 5px rgb(11, 225, 248);
+}
+
+img {
+    border-radius: 50%;
+    height: 99px;
+    width: 99px;
+}
+
+/*----------FOOTER----------*/
+footer {
+    height: 20em;
+    background: linear-gradient(0deg, rgba(45,253,83,0.7651435574229692) 56%, rgba(34,193,195,1) 100%);
+    font-weight: bold;
+    width: 100%;
+}
+
+.main_footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 98.5%;
+}
+
+/*-----------copy_right-------*/
+.copy_right {
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    font-size: 24px;
+    border-radius: 45px;
+    width: fit-content;
+    height: 4em;
+    padding: 20px;
+    padding: 13px;
+    color: ghostwhite;
+
+}
+@media (max-width: 740px) {
+    body::before {
+        display: none;
+    }
+
+    div {
+        padding: 20px;
+    }
+
+    div {
+        width: 140px;
+    }
+
+    div {
+        width: 100%;
+        top: 43%;
+    }
+
+    div {
+        margin: 25px 0 40px;
+    }
+}
+/*
+
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+    .section {
+        background-color: darkslategray;
+        color: black;
+    }
+}
