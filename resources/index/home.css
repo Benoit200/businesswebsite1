@@ -1,7 +1,10 @@
-.home{
-    background-image: url(../image/home\ background\ image.jpg);
-    height: 450px;
-    width: fit-content;
-    background-repeat: no-repeat;
-    background-size: cover;
+*{
+    padding: 0;
+    margin: 0;
+}
+.general{
+    width: 65%;
+    background-color: darkcyan;
+    border-radius: 15px;
+
 }
