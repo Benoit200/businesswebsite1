@@ -58,13 +58,12 @@ li a {
 
 a:hover {
     color: ghostwhite;
-    border-radius: 15px 0;
     background-color: goldenrod;
     text-align: center;
-    display: inline-block;
-    
-    font-size: xx-large;
-    width: 4em;
+    /*display: inline-block;
+    border-radius: 15px 0;
+     font-size: xx-large;
+    width: 1em; */
 
 }
 
@@ -98,11 +97,13 @@ h3 {
     padding: 0.5px 0 4px 0.5px;
 
 }
-.style1{background-color: aliceblue;
-width:fit-content;
-height:fit-content;
+.style1{
+    background-color: aliceblue;
+    width:fit-content;
+    height:fit-content;
 }
-.style2{background-color: aliceblue;
+.style2{
+    background-color: aliceblue;
     width:fit-content
 ;
 height:fit-content;
@@ -142,14 +143,12 @@ height:fit-content;
     margin: 8px;
     box-shadow: 0 0 5px 5px rgb(11, 225, 248);
     padding: 13px;
-
 }
 
 .medical_pouletry:hover {
     transition: 0.5s ease;
     background-color: maroon;
     color: white;
-
 }
 
 /*----meat pouletry*/
@@ -158,8 +157,6 @@ height:fit-content;
     background-color: lightsteelblue;
     height: fit-content;
     border-radius: 5px;
-
-
     margin: 8px;
     box-shadow: 0 0 5px 5px rgb(11, 225, 248);
     padding: 13px;
@@ -211,6 +208,7 @@ footer {
 .left_footer{
     color: cornsilk;
 }
+
 h1 a{
     padding: 20px;
     
@@ -227,9 +225,11 @@ h1 a:hover{
     width: 1em;
     height: 1em;
 }
+
 h6{
     font-size: 13px;
 }
+
 @media (max-width: 740px) {
     body::before {
         display: none;
